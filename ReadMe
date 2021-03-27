@@ -1,1 +1,6 @@
-H2 LocalHost : http://localhost:8080/h2-ui/test.do?jsessionid=bbef1e052ce284de4938fcbd19fcf2d1
+Build on the code in: https://spring.io/blog/2015/07/14/microservices-with-spring and add 1 project that do the following:
+
+One is a service that manages posts. It supports:
+Storing a post – includes the body of the post, a subject (optional), a post this one depends on (optional). “Storing” does mean storing into a database – H2 should be fine.
+Operations to retrieve posts – you can decide which operations you need
+Again, “retrieve” means to retrieve from the database
